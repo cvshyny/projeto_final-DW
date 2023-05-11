@@ -5,8 +5,8 @@
         <hr class="my-4">
         <div class="row d-flex justify-content-center align-items-center">
             <?php while($dados = $query->fetch()){?>
-            <div class="col-lg-4">
-                <div class="card">
+            <div  class="mt-4 col-lg-4 shadow-lg p-3 mb-5 bg-body rounded" >
+                <div style="border: none;" class="card">
                     <div class="card-body">
                         <div class="d-flex flex-column align-items-center text-center">
                             <form class="col-12 d-flex justify-content-start"  action="./editar.php" method="get">
@@ -17,10 +17,10 @@
                             </div>
                         </div>
                         <hr class="my-4">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                        <ul class="col-12 list-group list-group-flush">
+                            <li style="height: 250px;" class="list-group-item ">
                                 <h4 class="col-12 mb-0 fst-italic">Descrição:</h4>
-                                <span class="text-secondary mt-3 fst-italic fs-5 fw-semibold"><?php echo $dados["nota"]; ?></span>
+                                <p class="col-12 text-secondary mt-3 fst-italic fs-5 fw-semibold"><?php echo $dados["nota"]; ?></p>
                             </li>
                         </ul>
                         <form class="col-12 d-flex justify-content-end mt-5"  action="./controller/deletar.php" method="post">

@@ -25,7 +25,7 @@
     
 
     <main class="container">
-        <form class="row d-flex justify-content-center text-center" action="./controller/editar.php" method="post">
+        <form class=" row d-flex justify-content-center text-center" action="./controller/editar.php" method="post">
             <div class="col-6 mt-3 ">
                 <label class="col-12 fst-italic"  for="Titulo"><h2>Titulo</h2></label>
                     <input maxlength="20" name="nota"  value="<?php echo $dados["nome_nota"]; ?>" class="col-8 form-floating" id="Titulo" type="text">
