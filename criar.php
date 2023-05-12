@@ -17,10 +17,17 @@
     <main class="container">
         <form class="row d-flex justify-content-center text-center" action="./controller/criar.php" method="post">
             <div class="shadow-lg p-3 mb-5 bg-body rounded  col-12 col-lg-6 mt-3">
+<<<<<<< HEAD
                 <label class="col-12 fst-italic form-label"  for="Titulo"><h2>Titulo</h2></label>
                     <input maxlength="20" name="nota" class="col-8 form-floating form-control" id="Titulo" type="text">
                 <label class="col-12 fst-italic form-label" for="descricao"><h2>Descrição</h2></label>
                     <textarea maxlength="200" class="col-8 form-floating form-control" name="descricao" id="descricao" cols="30" rows="10"></textarea> <br>
+=======
+                <label class="col-12 fst-italic"  for="Titulo"><h2>Titulo</h2></label>
+                    <input maxlength="20" name="nota" class="col-8 form-floating" id="Titulo" type="text">
+                <label class="col-12 fst-italic" for="descricao"><h2>Descrição</h2></label>
+                    <textarea maxlength="200" class="col-8 form-floating" name="descricao" id="descricao" cols="30" rows="10"></textarea> <br>
+>>>>>>> 441bdbce1a7e27976037f4987dc6a042f93b868e
                 <button type="submit" style="width: 100px;" class="mt-3 btn btn-primary">Adicionar</button> 
             </div> 
     </main>

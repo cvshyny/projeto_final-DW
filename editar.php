@@ -26,7 +26,11 @@
 
     <main class="container">
         <form class=" row d-flex justify-content-center text-center" action="./controller/editar.php" method="post">
+<<<<<<< HEAD
             <div class="shadow-lg p-3 mb-5 bg-body rounded  col-12 col-lg-6 mt-3 ">
+=======
+            <div class="col-6 mt-3 ">
+>>>>>>> 441bdbce1a7e27976037f4987dc6a042f93b868e
                 <label class="col-12 fst-italic"  for="Titulo"><h2>Titulo</h2></label>
                     <input maxlength="20" name="nota"  value="<?php echo $dados["nome_nota"]; ?>" class="col-8 form-floating form-control" id="Titulo" type="text">
                 <label class="col-12 fst-italic" for="descricao"><h2>Descrição</h2></label>
